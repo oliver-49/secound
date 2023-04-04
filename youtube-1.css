@@ -1,0 +1,403 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.one{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(22, 17, 17);   /* #131010    #c9b6b6    */
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+span{
+    color: red;
+}
+h2{
+    cursor: pointer;
+    font-size: 2.2rem;
+    letter-spacing: 0.12rem;
+    text-transform: capitalize;
+}
+h3{
+    text-transform: capitalize;
+    margin-bottom: 9px;
+}
+nav{
+   
+    padding: 2.8rem 8% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+}
+
+ul li a:hover{
+    color: red;
+    transition: 0.9s;
+}
+
+.subscribe{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+}
+.teto{
+display: block;
+    color: white;
+    outline: 2px solid red;
+    text-decoration: none;
+    
+    border-radius: 30px;
+    font-weight: 40PX;
+    font-size: 30PX;
+    padding: 0.81rem 1.87rem;
+       
+   }
+.subscribe:hover{
+    background-color: transparent;
+  outline: 2px solid red;
+    transition: 0.9s;
+
+}
+.contect{
+    flex-grow: 1;
+  
+    padding:  0 8%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+div h2{
+    margin: 2.2rem;
+
+}
+.text{
+    position: absolute;
+    bottom: 300px;
+}
+.ahmed{
+    
+        margin-left: 33px;
+        margin-top: 3px;
+       
+        position: absolute;
+  
+}
+.social{
+    margin-left: 38px;
+}
+.social img{
+                width: 2.2rem;
+                margin-top: 206px;
+}
+.social img:hover{
+
+transform: scale(1.2);
+transition: 0.5s;
+
+}
+.containbg{
+    width: 45%;
+    height: 90%;
+    position: relative;
+
+}
+
+
+.bag{
+    width: 350px;
+    margin-left: 97%;
+    margin-top: 102px;
+    z-index: 0;
+}
+.containbg:hover{
+    height: 80%;
+    transition: 4s;
+}
+.poh{ width: 452px;
+z-index: 1;
+     margin-left: 85%;
+     position: absolute;
+     bottom: 169px;
+}
+.two{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(23, 32, 26);
+    position: relative;
+    padding-left: 30px;
+}
+
+.imag8{
+    width: 400px;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+.text-9{ 
+     width: 50%;
+    position: relative;
+    top: 100px;
+  
+    
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+  
+}
+.mee{
+    color: green;
+    text-transform: capitalize;
+    width: 100%;
+   
+    outline: green;
+    margin-left: 400px;
+    letter-spacing: 5px;
+
+    
+
+}
+.mee:hover{
+  
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+    transition: 1s;
+
+}
+.mee:hover .io 
+{
+color: rgb(35, 164, 35); 
+transition: 1s;
+}
+.me{
+    width: 900px;
+    position: relative;
+    left: 447px;
+    
+    padding: 40px 30px;
+    font-weight: 200;
+    font-size: 20px;
+    border-radius: 30px;
+   text-align: center;
+  display: inline-flex;
+    outline: 3px greenyellow solid;
+    background-color: rgb(1, 46, 1);
+}
+.me:hover{
+
+    outline: 3px green solid;
+    color: greenyellow;
+    font-weight: 700;
+    font-size: 22px;
+    transition: 0.5s;
+}
+.ab{
+   color: green;
+
+}
+.a{
+    color: white;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 45%;
+    position: relative;
+    top: 20px;
+    font-size: 40px;
+}
+.io{
+    color: white;
+
+}
+.nk {
+    color: white;
+   
+}
+.imag9
+{
+   
+    
+    position: absolute;
+    width: 200px;
+    left: 55px;
+    top: 479px;
+   
+}
+.three{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(17, 17, 33);
+    position: absolute;
+    padding-left: 100px;
+
+}
+.d1{
+    position: relative;
+    display: flex;
+   flex-wrap: wrap;
+   width: 30%;
+   top: -400px;
+  
+   
+}
+.imag81{
+    width: 80px;
+    background-color: white;
+    border-radius: 0px 40px ;
+    padding: 10px;
+    margin: 10px;
+   
+   
+}
+
+.imag81:hover{
+   transition: 0.4s;
+    width: 100px;
+    outline: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+    
+.p5{
+    margin-top: 100px ;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.p5 > span{
+    color: blue;
+}
+
+.imag36{
+    width: 600px;
+    position: relative;
+    
+    left: 600px;
+    margin-top: -125px;
+}
+.q50
+{
+   height: 100%;
+}
+.medo{
+    padding-top: 60px;
+}
+.four{
+    position: absolute;
+    margin-top: 100vh;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(17, 16, 13);
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.four div{
+   
+    
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+   
+   
+}
+.oo{
+    line-height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: rgb(214, 146, 18);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 5px;
+    z-index: 3; 
+   
+}
+.onn{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(39, 39, 115);
+    z-index: 1;
+}
+.onnn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: rgb(2, 81, 2);
+    z-index: 2;
+}
+.ssd
+{
+    position: relative;
+    font-size: 60px;
+   margin-left: 35%;
+  
+    color: white;
+}
+.ioi{
+    color: orange;
+}
+.y66{
+    color: white;
+}
+.yoyo{
+   width: 60px;
+   background-color: white;
+   border-radius: 30px;
+   padding: 5px;
+outline-width: 0px 20px 20px 0px;
+outline-color: red;
+ 
+ position: relative;
+ left: -300px;
+    top: 376px;
+    margin: 20px ;
+  
+  
+  
+    
+}
+.yoyo:hover{
+    background-color: rgb(72, 55, 23);
+    border-radius:   30px;
+    width: 100px;
+  margin: 0px;
+}
+.cll{
+    position: absolute;
+   top: 25px;
+    width: 250px;
+}
+.ka{
+    background-color:rgb(72, 55, 23);
+    width: 80px;
+}
